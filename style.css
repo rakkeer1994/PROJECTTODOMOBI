@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* index page styling */
+h1{
+    text-align: center;
+    margin-left: 20px;
+}
+.spn1{
+    color: gray;
+}
+
+.container{
+    text-align: center;
+    justify-items: center;
+    margin-left: 40%;
+}
+
+.card{
+    width: 150px;
+    height: 5vh;
+    border: 2px solid red;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 1px 2px blue;
+    margin: 5px;
+    padding: 5px;
+}
+
+/* container & header responsive */
+
+@media (min-width: 800px){
+
+    h1{
+        text-align: center;
+        margin-left: 20px;
+    }
+
+    .container{
+        text-align: center;
+        justify-items: center;
+        margin-left: 20%;
+        display: flex;
+        font-size: 1.5rem;
+    }
+    .card{
+        width: 150px;
+        height: 50vh;
+        border: 2px solid red;
+        border-radius: 5px;
+        box-sizing: border-box;
+        box-shadow: 1px 2px blue;
+        margin: 5px;
+        padding: 5px;
+    }
+}
+
+/* index1  page styling */
+h2{
+    text-align: center;
+}
+.London{
+    margin-left: 50%;
+    border: 2px solid blue;
+    height: 250px;
+    width: 20%;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 5px 10px 5px  blue;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.nextback{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+/* responsive 2nd page  */
+
+@media (max-width: 580px){
+    .London{
+        font-size: .67rem;
+        height: 250px;
+        width: 30%;
+    }
+}
+
+
+/* index2 page styling */
+.addlist{
+    text-align: center;
+}
+.bgblurr1{
+    border: 1px solid red;
+    /* display: inline; */
+    position: absolute;
+    margin: 100px;
+}
+.bgblurr{
+   filter:blur(5px); 
+   position: absolute;
+   width: 1200px;
+}
+.container1{
+    display: flex;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.item{
+       width: 150px;
+        height: 25vh;
+        border: 2px solid red;
+        border-radius: 5px;
+        box-sizing: border-box;
+        box-shadow: 1px 2px blue;
+        margin: 15px;
+        padding: 5px;
+}
+.popup{
+    border: 2px solid red;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    background-color: lightgray;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+
+.btn{
+    background-color: red;
+    border-radius: 10px;
+}
+
+/* index2 page responsive */
+@media (max-width: 500px){
+
+    .container1{
+        display: block;
+        margin: auto;
+    }
+    .popup{
+        border: 2px solid red;
+        width: 200px;
+        height: 100px;
+        text-align: center;
+        background-color: lightgray;
+        position: absolute;
+        margin: auto;
+    }
+
+}
